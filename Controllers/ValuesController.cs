@@ -14,7 +14,13 @@ namespace WebAPITut.Controllers
             "value0", "value1", "value2"
 
         };
-        // GET api/values
+        /// <summary>
+        /// Get All the Values
+        /// </summary>
+        /// <remarks>
+        /// Get All the String Values
+        /// </remarks>
+        /// <returns></returns>
         public IEnumerable<string> Get()
             {
             return strings;
